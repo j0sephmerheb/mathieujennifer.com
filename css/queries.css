@@ -1,0 +1,187 @@
+/*** 1280px - 1439px ***/  
+@media only screen and (max-width: 1439px) {
+    *{}
+
+}
+
+
+/*** 1024px - 1279px ***/  
+@media only screen and (max-width: 1279px) {
+    *{}
+    header li{margin: 0 6px;}
+    .main-banner .welcome-text{font-size: 60px;}
+    .main-banner .logo{max-width: 280px;}
+
+}
+
+
+/*** 960px - 1023px ***/  
+@media only screen and (max-width: 1023px) {
+    *{}
+    header, footer, .main-content, .main-banner .holder, .map .holder, .parallax .holder, .insta-holder{padding-left: 20px; padding-right: 20px;}
+    header{height: 40px; padding: 0;}
+    #mobileNavBtn{display: block;}
+    header nav{position: fixed; right: -240px; top: 40px; bottom: 0; width: 240px; z-index: 999; background: #fff; padding: 0;-webkit-transition: all .35s ease-in-out;-moz-transition: all .35s ease-in-out;-ms-transition: all .35s ease-in-out;-o-transition: all .35s ease-in-out;transition: all .35s ease-in-out;}
+    header nav.selected{right: 0;}
+    header nav ul{position: relative; height: auto; padding: 0; top: 0;}
+    header nav li{float: none; text-align: left; display: block; width: 100%; margin: 0;}
+    header nav li:first-child{position: relative; width: auto; display: block;}
+    header nav li:first-child a{display: block;}
+    header nav li a, header nav li:first-child a{border: 0; border-bottom: 1px solid #efefef; text-align: left; padding: 10px 20px; margin: 0; color: #5d5d5e;}
+    header nav li:first-child span{display: inline-block;}
+    header nav li .fa, header nav li:first-child .fa{margin-right: 12px;}
+    header nav li a.selected{color: #fff; background: #364e2a;}
+    
+    .section-title span{font-size: 34px;}
+    
+    .events-holder .title{font-size: 26px;}
+    
+    .timeline-bottom h3 span{font-size: 42px;}
+    
+    
+}
+
+
+/*** 768px - 959px ***/ 
+@media only screen and (max-width: 959px) {
+    *{}
+    .main-banner .welcome-text{font-size: 50px;}
+    
+    .section-title span{font-size: 30px;}
+        
+    .form{width: 320px;}
+    .form ul{margin: 0 0 10px;}
+    .form li{float: none; margin: 0 0 2px;}
+    .form input, .form select{height: 32px; line-height: 32px; margin-bottom: 8px;}
+
+    .main-info{float: none; width: auto; margin: 0; clear: both;}
+    .main-info .filler{display: none;}
+    .main-info .info{position: relative; height: auto;}
+    .persons .circle{margin-bottom: 100px; width: 40%;}
+    
+    .timeline li .photo{width: 40%;}
+
+}
+
+
+/*** 640px - 767px ***/ 
+@media only screen and (max-width: 767px) {
+    *{}
+    .events-holder .col{float: none; width: auto; margin: 0 0  20px;}
+
+    .events-holder .title{font-size: 22px;}
+    
+    .timeline-bottom h3 span{font-size: 36px;}
+    
+    .gallery .listing li{width: 50%;}
+    
+    .map{height: auto;}
+    .map #googleMap{position: relative; height: 400px;}
+    .map .holder{position: relative; height: auto; width: auto; padding: 0;}
+    .form{position: relative; left: 0; right: 0; top: 0; bottom: 0; height: auto; width: auto; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;}
+
+    .persons .circle{margin-top: 100px; width: 44%;}
+    
+    .timeline li .date{font-size: 16px;}
+    
+    .insta-holder .title{font-size: 20px;}
+    
+}
+
+
+/*** 480px - 639px ***/ 
+@media only screen and (max-width: 639px) {
+     *{}
+     .persons .circle{margin-bottom: 140px;}
+     .main-banner .welcome-text{font-size: 40px;}
+     
+     .section-title span{font-size: 26px;}
+     .events-holder .small-info .break{display: block; padding: 0 0 4px;}
+     .timeline-bottom h3 span{font-size: 32px;} 
+     .persons .circle.him:after, .persons .circle.her:after{background-size: 50% ;} 
+     
+     .timeline ul{background: none;}
+     .timeline li .date{width: auto; position: relative; left: 0; margin: 0 0 20px;}
+     .timeline li .photo, .timeline li:nth-child(2n) .photo{margin-right: 5%; float: left;}
+     .timeline li .holder, .timeline li:nth-child(2n) .holder{float: none; width: auto; text-align: justify; height: auto;}
+     .timeline .title{text-align: left;}
+     .timeline li .date:before, .timeline li .date:after{display: none;}     
+     
+     .parallax .time-table li{padding: 15px 20px; margin: 0;}
+     .parallax .time-table li strong{margin-top: 5px;}
+     .parallax .back{background-size: auto 100%;}
+     
+     .form .custom-btn{font-size: 18px;}
+      
+}
+
+
+/*** 360px - 479px ***/ 
+@media only screen and (max-width: 479px) {
+    *{}
+    .main-info h1{font-size: 24px;}
+    .main-info h2{font-size: 18px;}
+    
+    .time-table ul{padding: 15px;}
+    .time-table li{margin: 0 6px; font-size: 13px;}
+    
+    .gallery .listing li {width: 100%; float: none;}
+    .timeline-bottom h3 span{font-size: 28px;}
+    
+     .timeline li .photo, .timeline li:nth-child(2n) .photo{float: none; margin: 0 auto 20px; width: auto;}
+      
+     .parallax .time-table li{margin: 0 -2px; padding: 10px 15px;}
+        
+}
+
+
+/*** < 359px ***/ 
+@media only screen and (max-width: 359px) {
+    *{}
+      
+}
+
+@media only screen and (max-width: 479px) and (orientation:portrait){
+    *{}
+    .main-banner .back{background-image: url(../images/slide1-mobile.jpg)!important;}  
+    
+}
+
+
+
+
+/* Animation */
+@-webkit-keyframes "pulse" {
+  0%{-webkit-transform: scale(1.1);}
+  33%{-webkit-transform: scale(0.8);}
+  66%{-webkit-transform: scale(1);}
+  100%{-webkit-transform: scale(1.1);}
+}
+
+@-moz-keyframes pulse {
+  0%{-moz-transform: scale(1.1);}
+  33%{-moz-transform: scale(0.8);}
+  66%{-moz-transform: scale(1);}
+  100%{-moz-transform: scale(1.1);}
+}
+
+@-ms-keyframes "pulse" {
+  0%{-ms-transform: scale(1.1);}
+  33%{-ms-transform: scale(0.8);}
+  66%{-ms-transform: scale(1);}
+  100%{-ms-transform: scale(1.1);}
+}
+
+@-o-keyframes "pulse" {
+  0%{-o-transform: scale(1.1);}
+  33%{-o-transform: scale(0.8);}
+  66%{-o-transform: scale(1);}
+  100%{-o-transform: scale(1.1);}
+}
+
+@keyframes "pulse" {
+  0%{transform: scale(1.1);}
+  33%{transform: scale(0.8);}
+  66%{transform: scale(1);}
+  100%{transform: scale(1.1);}
+}

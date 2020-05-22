@@ -1,0 +1,54 @@
+/* IE 9 */
+.lt-ie10 .persons .circle .info{
+      opacity:0;
+}
+.lt-ie10 .persons .circle:hover .info{
+      opacity:1
+}
+.lt-ie10 .timeline li .date{
+    font-size: 16px;
+}
+.lt-ie10 .form li label{
+    font-size: 12px;
+}
+
+
+/* IE 8 */
+.lt-ie9 .wow{
+    visibility: visible!important;
+}
+.lt-ie9 .persons .circle .info{
+       filter: alpha(opacity=0); 
+}
+.lt-ie9 .persons .circle:hover .info{
+      filter: alpha(opacity=100); 
+}
+.lt-ie9 .events-holder .col{
+    width: 31%;
+}
+
+
+/* IE 7 */
+.lt-ie8 header li{
+     display: inline;
+}
+.lt-ie8 .time-table li{
+    display: inline;
+}
+.lt-ie8 .gallery .photo{
+    padding-bottom: 0;
+}
+.lt-ie8 .gallery .photo img{
+    position: relative;
+}
+.lt-ie8 .map #googleMap{
+    position: absolute!important;
+    bottom: 0;
+    height: 520px!important;
+}
+.lt-ie8 .insta-holder .cell{
+    margin: 40px auto 0;
+}
+.lt-ie8 .gallery .listing li{
+    margin-left: -1px;
+}
